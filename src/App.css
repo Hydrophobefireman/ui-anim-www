@@ -2,13 +2,25 @@ html {
   -webkit-tap-highlight-color: transparent;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  --bg: #f5f5f5;
+
+  --bg: #eeeeee;
   --font: #1d1d1d;
+  --accent: #0d26ca;
+  --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
   background-color: var(--bg);
   color: var(--font);
+  scroll-behavior: smooth;
 }
 
+* {
+  text-transform: lowercase;
+}
+
+body {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 button {
   cursor: pointer;
   background: none;
@@ -18,4 +30,16 @@ button {
   margin: 0;
   user-select: none;
   outline: none;
+}
+
+@keyframes gradient-anim {
+  0% {
+    background-position: 66% 0%;
+  }
+  50% {
+    background-position: 35% 100%;
+  }
+  100% {
+    background-position: 66% 0%;
+  }
 }

@@ -55,3 +55,11 @@ export function useInterval(callback: () => void, delay: number) {
     }
   }, [delay]);
 }
+
+export function useAnchorHashOnMount() {
+  useEffect(() => {
+    const hash = location.hash.substr(1);
+    const el = document.getElementById(hash);
+    el && el.scrollIntoView();
+  }, []);
+}

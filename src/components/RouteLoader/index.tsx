@@ -14,7 +14,9 @@ const getDefault: <T>(mod: { default: T }) => T = (mod) => mod.default;
 
 // lazy load routes here
 const componentMap = {
-  "/": () => import("../../pages/Landing").then(getDefault),
+  "/": () => import("@/pages/Landing/Landing").then(getDefault),
+  "/intro": () => import("@/pages/Intro/Intro").then(getDefault),
+  "/v0/examples": () => import("@/pages/Examples/Examples").then(getDefault),
 };
 
 export function RouteLoader() {
