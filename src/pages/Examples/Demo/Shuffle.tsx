@@ -1,7 +1,7 @@
 import { AnimateLayout } from "@hydrophobefireman/ui-anim";
 import { useState } from "@hydrophobefireman/ui-lib";
 import { css } from "catom";
-import { shuffleBox, shuffleButton } from "./demo.styles";
+import { shuffleBox, actionButton } from "./demo.styles";
 const count = 15;
 
 export function Shuffle() {
@@ -11,7 +11,7 @@ export function Shuffle() {
 
   return (
     <div>
-      <button class={shuffleButton} onClick={() => setArr(shuffleArray(arr))}>
+      <button class={actionButton} onClick={() => setArr(shuffleArray(arr))}>
         Shuffle
       </button>
       <div class={css({ marginTop: "15px" })}>

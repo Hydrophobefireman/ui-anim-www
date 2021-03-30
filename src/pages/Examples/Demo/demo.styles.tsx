@@ -51,13 +51,15 @@ export const shuffleBox = css({
   display: "inline-flex",
   boxShadow: "var(--box-shadow)",
   alignItems: "center",
+  background: "var(--bg)",
   justifyContent: "center",
 });
 
-export const shuffleButton = css({
+export const actionButton = css({
   boxShadow: "var(--box-shadow)",
   padding: ".5rem",
   background: "var(--accent)",
   borderRadius: "10px",
   color: "var(--bg)",
+  transition: "0.3s linear",
 });

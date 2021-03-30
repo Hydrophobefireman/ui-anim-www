@@ -5,6 +5,7 @@ import { MobileScreen } from "./Demo/mobilescreen";
 import { Motion } from "@hydrophobefireman/ui-anim";
 import { Shuffle } from "./Demo/Shuffle";
 import { Register } from "./Demo/Register";
+import { HeightAuto } from "./Demo/HeightAuto";
 const marginTop = css({ marginTop: "2rem" });
 export default function Examples() {
   return (
@@ -25,9 +26,9 @@ export default function Examples() {
           </ContentSection>
         </div>
         <div class={marginTop}>
-          <ContentSection hash="shuffle" heading="Shuffle">
+          <ContentSection hash="height-auto" heading="Height Auto">
             <div class={center}>
-              <Register />
+              <HeightAuto />
             </div>
           </ContentSection>
         </div>
