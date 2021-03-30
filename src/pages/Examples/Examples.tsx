@@ -32,6 +32,13 @@ export default function Examples() {
             </div>
           </ContentSection>
         </div>
+        <div class={marginTop}>
+          <ContentSection hash="register" heading="Register Page">
+            <div class={center}>
+              <Register />
+            </div>
+          </ContentSection>
+        </div>
       </Motion>
     </div>
   );

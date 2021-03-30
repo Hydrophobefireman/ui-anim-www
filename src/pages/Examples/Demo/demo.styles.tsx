@@ -63,3 +63,21 @@ export const actionButton = css({
   color: "var(--bg)",
   transition: "0.3s linear",
 });
+
+export const regContainer = css({
+  width: "500px",
+  maxWidth: "80vw",
+  borderRadius: "10px",
+  boxShadow: "var(--box-shadow)",
+  padding: "2rem",
+});
+
+export const regInput = css({
+  padding: ".5rem",
+  outline: "none",
+  margin: "10px",
+  width: "60%",
+  textDecoration: "none",
+});
+
+export const formContainer = css({ margin: "auto", textAlign: "center" });

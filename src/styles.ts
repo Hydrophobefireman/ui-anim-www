@@ -17,4 +17,4 @@ export const code = css({
   padding: "3px",
 });
 
-export const codePre = css({ fontSize: ".85rem" });
+export const codePre = css({ fontSize: ".85rem", overflow: "auto" });
