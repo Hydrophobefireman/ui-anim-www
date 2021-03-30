@@ -33,7 +33,7 @@ export const header = css({
   position: "sticky",
   top: "0px",
   background: "var(--bg)",
-  // boxShadow: "var(--box-shadow)",
+  zIndex: 10,
 });
 
 export const externLinkContainer = css({
