@@ -24,7 +24,7 @@ function WhatisThis() {
       <p>
         A{" "}
         <a
-          href="https://bundlephobia.com/result?p=@hydrophobefireman/ui-anim@0.0.4"
+          href="https://bundlephobia.com/result?p=@hydrophobefireman/ui-anim"
           target="_blank"
           rel="noopener"
           class={link}
