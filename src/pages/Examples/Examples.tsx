@@ -20,7 +20,7 @@ export default function Examples() {
         </div>
         <div class={marginTop}>
           <ContentSection hash="shuffle" heading="Shuffle">
-            <div class={center}>
+            <div class={[center, css({ textAlign: "center" })]}>
               <Shuffle />
             </div>
           </ContentSection>

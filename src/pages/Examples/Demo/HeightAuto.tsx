@@ -43,6 +43,7 @@ export function HeightAuto() {
           <div
             class={css({
               width: "400px",
+              maxWidth: "50vw",
               height: "1rem",
               margin: "10px",
               background: "var(--accent)",
