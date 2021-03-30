@@ -4,6 +4,7 @@ import { css } from "catom";
 import { MobileScreen } from "./Demo/mobilescreen";
 import { Motion } from "@hydrophobefireman/ui-anim";
 import { Shuffle } from "./Demo/Shuffle";
+import { Register } from "./Demo/Register";
 const marginTop = css({ marginTop: "2rem" });
 export default function Examples() {
   return (
@@ -20,6 +21,13 @@ export default function Examples() {
           <ContentSection hash="shuffle" heading="Shuffle">
             <div class={center}>
               <Shuffle />
+            </div>
+          </ContentSection>
+        </div>
+        <div class={marginTop}>
+          <ContentSection hash="shuffle" heading="Shuffle">
+            <div class={center}>
+              <Register />
             </div>
           </ContentSection>
         </div>
