@@ -199,7 +199,9 @@ function UiAnimIsNotCss() {
       </p>
       <p>
         do not over use UI Anim (or framer motion), only do so where regular CSS
-        just doesn't cut it.
+        just doesn't cut it. (Like: Stateful animations, animations between page
+        transitions, animation that starts from where the previous dom node was
+        removed)
       </p>
     </ContentSection>
   );
