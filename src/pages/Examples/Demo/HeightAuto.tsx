@@ -22,7 +22,7 @@ export function HeightAuto({ reRender }: any) {
       >
         {Object.keys(lines).map((x) => (
           <button
-            class={actionButton}
+            class={[actionButton, css({ flex: 1, margin: "10px" })]}
             data-mode={x}
             disabled={x === mode}
             onClick={handleClick}
