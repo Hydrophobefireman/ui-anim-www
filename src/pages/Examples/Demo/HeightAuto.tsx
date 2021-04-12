@@ -3,11 +3,12 @@ import { actionButton } from "./demo.styles";
 import { css } from "catom";
 import { AnimateLayout } from "@hydrophobefireman/ui-anim";
 
-export function HeightAuto() {
+export function HeightAuto({ reRender }: any) {
   const [mode, setMode] = useState<"small" | "medium" | "full">("medium");
   const lines = { small: 3, medium: 5, full: 7 };
   function handleClick(e: JSX.TargetedMouseEvent<HTMLButtonElement>) {
     setMode(e.currentTarget.dataset.mode as any);
+    reRender && reRender();
   }
   return (
     <div class={css({ paddingBottom: "2rem" })}>

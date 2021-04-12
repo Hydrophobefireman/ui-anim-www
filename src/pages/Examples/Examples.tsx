@@ -2,12 +2,14 @@ import { ContentSection } from "@/components/ContentSection/ContentSection";
 import { center } from "@/styles";
 import { css } from "catom";
 import { MobileScreen } from "./Demo/mobilescreen";
-import { Motion } from "@hydrophobefireman/ui-anim";
+import { AnimateLayout, Motion } from "@hydrophobefireman/ui-anim";
 import { Shuffle } from "./Demo/Shuffle";
 import { Register } from "./Demo/Register";
 import { HeightAuto } from "./Demo/HeightAuto";
+import { useState } from "@hydrophobefireman/ui-lib";
 const marginTop = css({ marginTop: "2rem" });
 export default function Examples() {
+  const [, reRender] = useState({});
   return (
     <div class={css({ maxWidth: "80ch", margin: "auto" })}>
       <Motion>
@@ -28,17 +30,21 @@ export default function Examples() {
         <div class={marginTop}>
           <ContentSection hash="height-auto" heading="Height Auto">
             <div class={center}>
-              <HeightAuto />
+              <HeightAuto reRender={reRender} />
             </div>
           </ContentSection>
         </div>
-        <div class={marginTop}>
+        <AnimateLayout
+          element="div"
+          class={marginTop}
+          animId="reg-page-wrapper"
+        >
           <ContentSection hash="register" heading="Register Page">
             <div class={center}>
               <Register />
             </div>
           </ContentSection>
-        </div>
+        </AnimateLayout>
       </Motion>
     </div>
   );
