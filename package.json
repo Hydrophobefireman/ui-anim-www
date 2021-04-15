@@ -19,7 +19,7 @@
     "@hydrophobefireman/j-utils": "^2.1.6",
     "@hydrophobefireman/qwc": "^0.0.6",
     "@hydrophobefireman/ui-anim": "^0.0.7",
-    "@hydrophobefireman/ui-lib": "^1.9.0",
+    "@hydrophobefireman/ui-lib": "^1.9.1",
     "statedrive": "^0.0.12"
   },
   "devDependencies": {
@@ -39,7 +39,7 @@
     "core-js": "^3.10.1",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.1",
-    "cssnano": "^5.0.0",
+    "cssnano": "^5.0.1",
     "file-loader": "^6.2.0",
     "html-inline-css-webpack-plugin": "^1.11.0",
     "html-webpack-plugin": "^5.3.1",
@@ -52,7 +52,7 @@
     "terser-webpack-plugin": "^5.1.1",
     "typescript": "^4.2.4",
     "url-loader": "^4.1.1",
-    "webpack": "^5.31.2",
+    "webpack": "^5.33.2",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
   },

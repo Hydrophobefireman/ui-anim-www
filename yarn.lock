@@ -1035,10 +1035,10 @@
   resolved "https://registry.yarnpkg.com/@hydrophobefireman/ui-anim/-/ui-anim-0.0.7.tgz#f6ffd1486c0738a3407303d1958e0595516a6acc"
   integrity sha512-89lyFFnORnju+RktbqSf5+mi44uJF/tOg+0ryUA1taKte1TFJ5ovnqnIoyGYRnxunjNkc/nPKKf6tChAYcF/7Q==
 
-"@hydrophobefireman/ui-lib@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@hydrophobefireman/ui-lib/-/ui-lib-1.9.0.tgz#318f14bef224eaaf85b8ab7f8d349278eec42425"
-  integrity sha512-GJRjV+lGe3gNpx8V1OB9ZDkYl7PmkteK6Vo+c8JK7q4+04RM/izjHpBpMb0Nq5HfgeW41XYYZiXYtpgR/ZwG8Q==
+"@hydrophobefireman/ui-lib@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@hydrophobefireman/ui-lib/-/ui-lib-1.9.1.tgz#0ba5fb6c17e2abcb93c58caacdd517706471041c"
+  integrity sha512-s5BKxsB60dEGhXnkgj8IAe2wybHf1r1/v/FXlIiLjkXhbDaFEAd4Fa+9eT8ad7AxlYpLNRX1qmyMopOOFjyNXA==
 
 "@trysound/sax@0.1.1":
   version "0.1.1"
@@ -2230,15 +2230,14 @@ cssnano@^4.1.10:
     is-resolvable "^1.0.0"
     postcss "^7.0.0"
 
-cssnano@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-5.0.0.tgz#6d6c19074a17b11601f2a15f5b1488ae64eab528"
-  integrity sha512-beaqJEU9aI0B2PpKWXy+UJdtw+Q2J2c2f2nHVphL/gb2wvkuQV+Zxf5Q5SsNXiPUb9Djo/+ja+UOelQWhHnVow==
+cssnano@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-5.0.1.tgz#ed4822c4a9212f22f6820717859c52a6b7f9cf5c"
+  integrity sha512-5WubEmKcK2cqw43DUAayRBiIlTdX7iX3ZowrWDVxSVcW3hyohVnbJ4K4mbnWtJp5rfJnUwHg5H4mDAGzmuCM3g==
   dependencies:
     cosmiconfig "^7.0.0"
     cssnano-preset-default "^5.0.0"
     is-resolvable "^1.1.0"
-    opencollective-postinstall "^2.0.2"
 
 csso@^4.0.2, csso@^4.2.0:
   version "4.2.0"
@@ -4181,11 +4180,6 @@ onetime@^5.1.2:
   integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   dependencies:
     mimic-fn "^2.1.0"
-
-opencollective-postinstall@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
-  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
 opn@^5.5.0:
   version "5.5.0"
@@ -6163,10 +6157,10 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@^5.31.2:
-  version "5.31.2"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.31.2.tgz#40d9b9d15b7d76af73d3f1cae895b82613a544d6"
-  integrity sha512-0bCQe4ybo7T5Z0SC5axnIAH+1WuIdV4FwLYkaAlLtvfBhIx8bPS48WHTfiRZS1VM+pSiYt7e/rgLs3gLrH82lQ==
+webpack@^5.33.2:
+  version "5.33.2"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.33.2.tgz#c049717c9b038febf5a72fd2f53319ad59a8c1fc"
+  integrity sha512-X4b7F1sYBmJx8mlh2B7mV5szEkE0jYNJ2y3akgAP0ERi0vLCG1VvdsIxt8lFd4st6SUy0lf7W0CCQS566MBpJg==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.46"
