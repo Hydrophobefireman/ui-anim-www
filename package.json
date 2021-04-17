@@ -18,7 +18,7 @@
   "dependencies": {
     "@hydrophobefireman/j-utils": "^2.1.6",
     "@hydrophobefireman/qwc": "^0.0.6",
-    "@hydrophobefireman/ui-anim": "^0.0.7",
+    "@hydrophobefireman/ui-anim": "^0.0.8",
     "@hydrophobefireman/ui-lib": "^1.9.1",
     "statedrive": "^0.0.12"
   },
@@ -38,7 +38,7 @@
     "catom": "^0.1.16",
     "core-js": "^3.10.1",
     "cross-env": "^7.0.3",
-    "css-loader": "^5.2.1",
+    "css-loader": "^5.2.2",
     "cssnano": "^5.0.1",
     "file-loader": "^6.2.0",
     "html-inline-css-webpack-plugin": "^1.11.0",
